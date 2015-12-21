@@ -1,0 +1,3 @@
+30 23 * * * root ifconfig ath0 down; ifconfig ath1 down; iwconfig ath0 txpower 0; iwconfig ath1 txpower 0
+30 18 * * * root ifconfig ath0 up; ifconfig ath1 up; iwconfig ath0 txpower 23; iwconfig ath1 txpower 23; startservice lan
+
